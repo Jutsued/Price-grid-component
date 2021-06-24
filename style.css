@@ -1,0 +1,95 @@
+body {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'karla', sans-serif;
+    src: url(https://fonts.google.com/specimen/Karla);
+}
+
+.container {
+    width: clamp(375px, 700px, 1440px);
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    box-shadow: 3px 6px 10px gray;
+    border-radius: 25px;
+}
+
+.intro {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.intro h4 {
+    color: hsl(71, 73%, 54%);
+    font-family: 'karla', sans-serif;
+}
+
+.intro p {
+    color: hsl(202, 8%, 74%);
+    font-family: 'karla', sans-serif;
+}
+
+.intro h2, h4, p {
+    color: hsl(179, 62%, 43%);
+    padding-left: 2rem;
+    font-family: 'karla', sans-serif;
+}
+
+.price {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    height: 220px;
+}
+
+.price p, a, button {
+    color: #fff;
+    font-family: 'karla', sans-serif;
+}
+
+.price button {
+    background-color: hsl(71, 73%, 54%);
+    width: 65%;
+    height: 20%;
+    border-radius: 10px;
+    margin-left: 2rem;
+    font-family: 'karla', sans-serif;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.plans {
+    display: flex;
+}
+
+.plans h3, a, p {
+    color: #fff;
+    padding-left: 2rem;
+    font-family: 'karla', sans-serif;
+}
+a {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'karla', sans-serif;
+    text-decoration: unset;
+}
+.plans span {
+    color: rgb(216, 212, 212);
+    padding-left: 10px;
+    font-family: 'karla', sans-serif;
+}
+
+.plans .info {
+    background-color: hsl(179, 46%, 53%);
+}
+
+.info {
+    width: 50%;
+    height: 220px;
+}
